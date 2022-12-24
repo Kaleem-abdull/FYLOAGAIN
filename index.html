@@ -38,7 +38,8 @@
             and co-workers.
           </p>
           <form action="#" id="form">
-            <input type="email" placeholder="Enter your email" />
+            <input type="email" placeholder="Enter your email" id="form" />
+            <label for="form"> Get Started</label>
             <br />
 
             <button type="submit">Get Started</button>
@@ -97,7 +98,7 @@
                 height="40px"
               />
               <figcaption>
-                <h4>Kyle Burton</h4>
+                <h3>Kyle Burton</h3>
                 <p>Founder & CEO, Huddle</p>
               </figcaption>
             </figure>
@@ -105,7 +106,7 @@
         </article>
       </div>
     </main>
-    <div class="close">
+    <div class="close" role="directory">
       <div class="left">
         <h2>Get early access today</h2>
         <p>
@@ -116,6 +117,7 @@
       </div>
       <form class="right">
         <input type="email" />
+        <label for="form"> Get Started</label>
         <br />
         <button type="submit">Get Started For Free</button>
       </form>
@@ -139,8 +141,6 @@
           <li>Jobs</li>
           <li>Press</li>
           <li>Blog</li>
-          <br />
-          <br />
         </ul>
         <ul>
           <li>Contact Us</li>
@@ -149,9 +149,15 @@
         </ul>
       </div>
       <div class="three">
-        <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+        <a href="#" aria-label="see facebook profile"
+          ><i class="fa-brands fa-facebook fa-2x"></i
+        ></a>
+        <a href="#" aria-label="see twitter profilr"
+          ><i class="fa-brands fa-twitter fa-2x"></i
+        ></a>
+        <a href="#" aria-label="see instagram profile"
+          ><i class="fa-brands fa-instagram fa-2x"></i
+        ></a>
       </div>
     </footer>
   </body>
